@@ -168,7 +168,7 @@ class JigsawTestDatasetMultiple(JigsawDataset):
 class JigsawNewDataset(data.Dataset):
     def __init__(self, names, labels, jig_classes=100, img_transformer=None, tile_transformer=None, patches=True,
                  bias_whole_image=None):
-        self.data_path = "/home/username/data/PACS/kfold"
+        self.data_path = "/share/data/vision-greg2/xdu/datasets/pacs_data"
 
         self.names = names
         self.labels = labels
