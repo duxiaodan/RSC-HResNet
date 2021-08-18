@@ -144,12 +144,12 @@ def main():
     args = get_args()
     # args.source = ['art_painting', 'cartoon', 'sketch']
     # args.target = 'photo'
-    args.source = ['art_painting', 'cartoon', 'photo']
-    args.target = 'sketch'
+    # args.source = ['art_painting', 'cartoon', 'photo']
+    # args.target = 'sketch'
     # args.source = ['art_painting', 'photo', 'sketch']
     # args.target = 'cartoon'
-    # args.source = ['photo', 'cartoon', 'sketch']
-    # args.target = 'art_painting'
+    args.source = ['photo', 'cartoon', 'sketch']
+    args.target = 'art_painting'
     # --------------------------------------------
     print("Target domain: {}".format(args.target))
     torch.manual_seed(0)
