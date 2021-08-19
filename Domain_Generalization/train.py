@@ -128,9 +128,10 @@ class Trainer:
         self.logger = Logger(self.args, update_frequency=30)
         self.results = {"val": torch.zeros(self.args.epochs), "test": torch.zeros(self.args.epochs)}
         for self.current_epoch in range(self.args.epochs):
-            self.scheduler.step()
+            
             self.logger.new_epoch(self.scheduler.get_lr())
             self._do_epoch(self.current_epoch)
+            self.scheduler.step()
         val_res = self.results["val"]
         test_res = self.results["test"]
         idx_best = val_res.argmax()
@@ -144,12 +145,12 @@ def main():
     args = get_args()
     # args.source = ['art_painting', 'cartoon', 'sketch']
     # args.target = 'photo'
-    # args.source = ['art_painting', 'cartoon', 'photo']
-    # args.target = 'sketch'
+    args.source = ['art_painting', 'cartoon', 'photo']
+    args.target = 'sketch'
     # args.source = ['art_painting', 'photo', 'sketch']
     # args.target = 'cartoon'
-    args.source = ['photo', 'cartoon', 'sketch']
-    args.target = 'art_painting'
+    # args.source = ['photo', 'cartoon', 'sketch']
+    # args.target = 'art_painting'
     # --------------------------------------------
     print("Target domain: {}".format(args.target))
     torch.manual_seed(0)

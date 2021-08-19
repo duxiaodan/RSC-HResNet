@@ -1,0 +1,145 @@
+Target domain: photo
+Dataset size: train 7478, val 843, test 1670
+Step size: 16
+New epoch - lr: 0.01
+0/116 of epoch 1/20 class : 3.247 - acc class : 0.00 [bs:128]
+30/116 of epoch 1/20 class : 0.833 - acc class : 75.78 [bs:128]
+60/116 of epoch 1/20 class : 0.638 - acc class : 80.47 [bs:128]
+90/116 of epoch 1/20 class : 0.711 - acc class : 85.94 [bs:128]
+Accuracies on val: class : 88.02
+Accuracies on test: class : 92.10
+New epoch - lr: 0.01
+0/116 of epoch 2/20 class : 0.536 - acc class : 84.38 [bs:128]
+30/116 of epoch 2/20 class : 0.378 - acc class : 90.62 [bs:128]
+60/116 of epoch 2/20 class : 0.452 - acc class : 78.91 [bs:128]
+90/116 of epoch 2/20 class : 0.411 - acc class : 86.72 [bs:128]
+Accuracies on val: class : 90.87
+Accuracies on test: class : 91.14
+New epoch - lr: 0.01
+0/116 of epoch 3/20 class : 0.269 - acc class : 90.62 [bs:128]
+30/116 of epoch 3/20 class : 0.373 - acc class : 89.06 [bs:128]
+60/116 of epoch 3/20 class : 0.241 - acc class : 90.62 [bs:128]
+90/116 of epoch 3/20 class : 0.340 - acc class : 92.19 [bs:128]
+Accuracies on val: class : 89.44
+Accuracies on test: class : 89.88
+New epoch - lr: 0.01
+0/116 of epoch 4/20 class : 0.235 - acc class : 89.84 [bs:128]
+30/116 of epoch 4/20 class : 0.216 - acc class : 94.53 [bs:128]
+60/116 of epoch 4/20 class : 0.229 - acc class : 93.75 [bs:128]
+90/116 of epoch 4/20 class : 0.264 - acc class : 90.62 [bs:128]
+Accuracies on val: class : 93.59
+Accuracies on test: class : 93.53
+New epoch - lr: 0.01
+0/116 of epoch 5/20 class : 0.202 - acc class : 92.19 [bs:128]
+30/116 of epoch 5/20 class : 0.140 - acc class : 96.88 [bs:128]
+60/116 of epoch 5/20 class : 0.221 - acc class : 90.62 [bs:128]
+90/116 of epoch 5/20 class : 0.187 - acc class : 94.53 [bs:128]
+Accuracies on val: class : 93.59
+Accuracies on test: class : 93.29
+New epoch - lr: 0.01
+0/116 of epoch 6/20 class : 0.143 - acc class : 95.31 [bs:128]
+30/116 of epoch 6/20 class : 0.259 - acc class : 91.41 [bs:128]
+60/116 of epoch 6/20 class : 0.095 - acc class : 96.09 [bs:128]
+90/116 of epoch 6/20 class : 0.106 - acc class : 96.88 [bs:128]
+Accuracies on val: class : 90.98
+Accuracies on test: class : 91.86
+New epoch - lr: 0.01
+0/116 of epoch 7/20 class : 0.072 - acc class : 97.66 [bs:128]
+30/116 of epoch 7/20 class : 0.122 - acc class : 97.66 [bs:128]
+60/116 of epoch 7/20 class : 0.124 - acc class : 97.66 [bs:128]
+90/116 of epoch 7/20 class : 0.182 - acc class : 92.19 [bs:128]
+Accuracies on val: class : 91.70
+Accuracies on test: class : 92.22
+New epoch - lr: 0.01
+0/116 of epoch 8/20 class : 0.119 - acc class : 96.09 [bs:128]
+30/116 of epoch 8/20 class : 0.084 - acc class : 97.66 [bs:128]
+60/116 of epoch 8/20 class : 0.131 - acc class : 96.09 [bs:128]
+90/116 of epoch 8/20 class : 0.050 - acc class : 98.44 [bs:128]
+Accuracies on val: class : 93.24
+Accuracies on test: class : 92.04
+New epoch - lr: 0.01
+0/116 of epoch 9/20 class : 0.053 - acc class : 99.22 [bs:128]
+30/116 of epoch 9/20 class : 0.095 - acc class : 96.88 [bs:128]
+60/116 of epoch 9/20 class : 0.161 - acc class : 93.75 [bs:128]
+90/116 of epoch 9/20 class : 0.160 - acc class : 93.75 [bs:128]
+Accuracies on val: class : 91.70
+Accuracies on test: class : 93.83
+New epoch - lr: 0.01
+0/116 of epoch 10/20 class : 0.100 - acc class : 96.88 [bs:128]
+30/116 of epoch 10/20 class : 0.047 - acc class : 99.22 [bs:128]
+60/116 of epoch 10/20 class : 0.055 - acc class : 99.22 [bs:128]
+90/116 of epoch 10/20 class : 0.178 - acc class : 96.09 [bs:128]
+Accuracies on val: class : 92.05
+Accuracies on test: class : 92.99
+New epoch - lr: 0.01
+0/116 of epoch 11/20 class : 0.094 - acc class : 97.66 [bs:128]
+30/116 of epoch 11/20 class : 0.040 - acc class : 99.22 [bs:128]
+60/116 of epoch 11/20 class : 0.072 - acc class : 97.66 [bs:128]
+90/116 of epoch 11/20 class : 0.041 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 91.58
+Accuracies on test: class : 91.98
+New epoch - lr: 0.01
+0/116 of epoch 12/20 class : 0.052 - acc class : 98.44 [bs:128]
+30/116 of epoch 12/20 class : 0.064 - acc class : 98.44 [bs:128]
+60/116 of epoch 12/20 class : 0.027 - acc class : 99.22 [bs:128]
+90/116 of epoch 12/20 class : 0.027 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 93.83
+Accuracies on test: class : 92.16
+New epoch - lr: 0.01
+0/116 of epoch 13/20 class : 0.065 - acc class : 96.88 [bs:128]
+30/116 of epoch 13/20 class : 0.069 - acc class : 98.44 [bs:128]
+60/116 of epoch 13/20 class : 0.016 - acc class : 100.00 [bs:128]
+90/116 of epoch 13/20 class : 0.070 - acc class : 96.88 [bs:128]
+Accuracies on val: class : 93.95
+Accuracies on test: class : 93.71
+New epoch - lr: 0.01
+0/116 of epoch 14/20 class : 0.023 - acc class : 100.00 [bs:128]
+30/116 of epoch 14/20 class : 0.037 - acc class : 100.00 [bs:128]
+60/116 of epoch 14/20 class : 0.036 - acc class : 99.22 [bs:128]
+90/116 of epoch 14/20 class : 0.024 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 92.88
+Accuracies on test: class : 91.80
+New epoch - lr: 0.01
+0/116 of epoch 15/20 class : 0.025 - acc class : 100.00 [bs:128]
+30/116 of epoch 15/20 class : 0.011 - acc class : 100.00 [bs:128]
+60/116 of epoch 15/20 class : 0.019 - acc class : 100.00 [bs:128]
+90/116 of epoch 15/20 class : 0.020 - acc class : 98.44 [bs:128]
+Accuracies on val: class : 95.02
+Accuracies on test: class : 90.24
+New epoch - lr: 0.01
+0/116 of epoch 16/20 class : 0.067 - acc class : 97.66 [bs:128]
+30/116 of epoch 16/20 class : 0.016 - acc class : 100.00 [bs:128]
+60/116 of epoch 16/20 class : 0.032 - acc class : 99.22 [bs:128]
+90/116 of epoch 16/20 class : 0.010 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 93.48
+Accuracies on test: class : 91.80
+New epoch - lr: 0.0001
+0/116 of epoch 17/20 class : 0.028 - acc class : 99.22 [bs:128]
+30/116 of epoch 17/20 class : 0.037 - acc class : 98.44 [bs:128]
+60/116 of epoch 17/20 class : 0.022 - acc class : 99.22 [bs:128]
+90/116 of epoch 17/20 class : 0.010 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 94.54
+Accuracies on test: class : 92.10
+New epoch - lr: 0.001
+0/116 of epoch 18/20 class : 0.009 - acc class : 100.00 [bs:128]
+30/116 of epoch 18/20 class : 0.014 - acc class : 100.00 [bs:128]
+60/116 of epoch 18/20 class : 0.025 - acc class : 100.00 [bs:128]
+90/116 of epoch 18/20 class : 0.030 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 94.66
+Accuracies on test: class : 92.57
+New epoch - lr: 0.001
+0/116 of epoch 19/20 class : 0.016 - acc class : 100.00 [bs:128]
+30/116 of epoch 19/20 class : 0.020 - acc class : 100.00 [bs:128]
+60/116 of epoch 19/20 class : 0.005 - acc class : 100.00 [bs:128]
+90/116 of epoch 19/20 class : 0.020 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 94.31
+Accuracies on test: class : 92.87
+New epoch - lr: 0.001
+0/116 of epoch 20/20 class : 0.029 - acc class : 99.22 [bs:128]
+30/116 of epoch 20/20 class : 0.020 - acc class : 99.22 [bs:128]
+60/116 of epoch 20/20 class : 0.013 - acc class : 100.00 [bs:128]
+90/116 of epoch 20/20 class : 0.057 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 94.31
+Accuracies on test: class : 92.99
+Best val 0.950178, corresponding test 0.902395 - best test: 0.938323, best epoch: 14
+It took 460.741

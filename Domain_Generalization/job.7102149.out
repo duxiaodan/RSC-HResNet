@@ -1,0 +1,846 @@
+/tmp/slurmd.gpu-g3/job7102149/slurm_script: line 13: activate: No such file or directory
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Target domain: photo
+Dataset size: train 7478, val 843, test 1670
+Step size: 16
+New epoch - lr: 0.01
+0/116 of epoch 1/20 class : 3.247 - acc class : 0.00 [bs:128]
+30/116 of epoch 1/20 class : 0.833 - acc class : 75.78 [bs:128]
+60/116 of epoch 1/20 class : 0.638 - acc class : 80.47 [bs:128]
+90/116 of epoch 1/20 class : 0.711 - acc class : 85.94 [bs:128]
+Accuracies on val: class : 88.02
+Accuracies on test: class : 92.10
+New epoch - lr: 0.01
+0/116 of epoch 2/20 class : 0.536 - acc class : 84.38 [bs:128]
+30/116 of epoch 2/20 class : 0.378 - acc class : 90.62 [bs:128]
+60/116 of epoch 2/20 class : 0.452 - acc class : 78.91 [bs:128]
+90/116 of epoch 2/20 class : 0.411 - acc class : 86.72 [bs:128]
+Accuracies on val: class : 90.87
+Accuracies on test: class : 91.14
+New epoch - lr: 0.01
+0/116 of epoch 3/20 class : 0.269 - acc class : 90.62 [bs:128]
+30/116 of epoch 3/20 class : 0.373 - acc class : 89.06 [bs:128]
+60/116 of epoch 3/20 class : 0.241 - acc class : 90.62 [bs:128]
+90/116 of epoch 3/20 class : 0.340 - acc class : 92.19 [bs:128]
+Accuracies on val: class : 89.44
+Accuracies on test: class : 89.88
+New epoch - lr: 0.01
+0/116 of epoch 4/20 class : 0.235 - acc class : 89.84 [bs:128]
+30/116 of epoch 4/20 class : 0.216 - acc class : 94.53 [bs:128]
+60/116 of epoch 4/20 class : 0.229 - acc class : 93.75 [bs:128]
+90/116 of epoch 4/20 class : 0.264 - acc class : 90.62 [bs:128]
+Accuracies on val: class : 93.59
+Accuracies on test: class : 93.53
+New epoch - lr: 0.01
+0/116 of epoch 5/20 class : 0.202 - acc class : 92.19 [bs:128]
+30/116 of epoch 5/20 class : 0.140 - acc class : 96.88 [bs:128]
+60/116 of epoch 5/20 class : 0.221 - acc class : 90.62 [bs:128]
+90/116 of epoch 5/20 class : 0.187 - acc class : 94.53 [bs:128]
+Accuracies on val: class : 93.59
+Accuracies on test: class : 93.29
+New epoch - lr: 0.01
+0/116 of epoch 6/20 class : 0.143 - acc class : 95.31 [bs:128]
+30/116 of epoch 6/20 class : 0.259 - acc class : 91.41 [bs:128]
+60/116 of epoch 6/20 class : 0.095 - acc class : 96.09 [bs:128]
+90/116 of epoch 6/20 class : 0.106 - acc class : 96.88 [bs:128]
+Accuracies on val: class : 90.98
+Accuracies on test: class : 91.86
+New epoch - lr: 0.01
+0/116 of epoch 7/20 class : 0.072 - acc class : 97.66 [bs:128]
+30/116 of epoch 7/20 class : 0.122 - acc class : 97.66 [bs:128]
+60/116 of epoch 7/20 class : 0.124 - acc class : 97.66 [bs:128]
+90/116 of epoch 7/20 class : 0.182 - acc class : 92.19 [bs:128]
+Accuracies on val: class : 91.70
+Accuracies on test: class : 92.22
+New epoch - lr: 0.01
+0/116 of epoch 8/20 class : 0.119 - acc class : 96.09 [bs:128]
+30/116 of epoch 8/20 class : 0.084 - acc class : 97.66 [bs:128]
+60/116 of epoch 8/20 class : 0.131 - acc class : 96.09 [bs:128]
+90/116 of epoch 8/20 class : 0.050 - acc class : 98.44 [bs:128]
+Accuracies on val: class : 93.24
+Accuracies on test: class : 92.04
+New epoch - lr: 0.01
+0/116 of epoch 9/20 class : 0.053 - acc class : 99.22 [bs:128]
+30/116 of epoch 9/20 class : 0.095 - acc class : 96.88 [bs:128]
+60/116 of epoch 9/20 class : 0.161 - acc class : 93.75 [bs:128]
+90/116 of epoch 9/20 class : 0.160 - acc class : 93.75 [bs:128]
+Accuracies on val: class : 91.70
+Accuracies on test: class : 93.83
+New epoch - lr: 0.01
+0/116 of epoch 10/20 class : 0.100 - acc class : 96.88 [bs:128]
+30/116 of epoch 10/20 class : 0.047 - acc class : 99.22 [bs:128]
+60/116 of epoch 10/20 class : 0.055 - acc class : 99.22 [bs:128]
+90/116 of epoch 10/20 class : 0.178 - acc class : 96.09 [bs:128]
+Accuracies on val: class : 92.05
+Accuracies on test: class : 92.99
+New epoch - lr: 0.01
+0/116 of epoch 11/20 class : 0.094 - acc class : 97.66 [bs:128]
+30/116 of epoch 11/20 class : 0.040 - acc class : 99.22 [bs:128]
+60/116 of epoch 11/20 class : 0.072 - acc class : 97.66 [bs:128]
+90/116 of epoch 11/20 class : 0.041 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 91.58
+Accuracies on test: class : 91.98
+New epoch - lr: 0.01
+0/116 of epoch 12/20 class : 0.052 - acc class : 98.44 [bs:128]
+30/116 of epoch 12/20 class : 0.064 - acc class : 98.44 [bs:128]
+60/116 of epoch 12/20 class : 0.027 - acc class : 99.22 [bs:128]
+90/116 of epoch 12/20 class : 0.027 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 93.83
+Accuracies on test: class : 92.16
+New epoch - lr: 0.01
+0/116 of epoch 13/20 class : 0.065 - acc class : 96.88 [bs:128]
+30/116 of epoch 13/20 class : 0.069 - acc class : 98.44 [bs:128]
+60/116 of epoch 13/20 class : 0.016 - acc class : 100.00 [bs:128]
+90/116 of epoch 13/20 class : 0.070 - acc class : 96.88 [bs:128]
+Accuracies on val: class : 93.95
+Accuracies on test: class : 93.71
+New epoch - lr: 0.01
+0/116 of epoch 14/20 class : 0.023 - acc class : 100.00 [bs:128]
+30/116 of epoch 14/20 class : 0.037 - acc class : 100.00 [bs:128]
+60/116 of epoch 14/20 class : 0.036 - acc class : 99.22 [bs:128]
+90/116 of epoch 14/20 class : 0.024 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 92.88
+Accuracies on test: class : 91.80
+New epoch - lr: 0.01
+0/116 of epoch 15/20 class : 0.025 - acc class : 100.00 [bs:128]
+30/116 of epoch 15/20 class : 0.011 - acc class : 100.00 [bs:128]
+60/116 of epoch 15/20 class : 0.019 - acc class : 100.00 [bs:128]
+90/116 of epoch 15/20 class : 0.020 - acc class : 98.44 [bs:128]
+Accuracies on val: class : 95.02
+Accuracies on test: class : 90.24
+New epoch - lr: 0.01
+0/116 of epoch 16/20 class : 0.067 - acc class : 97.66 [bs:128]
+30/116 of epoch 16/20 class : 0.016 - acc class : 100.00 [bs:128]
+60/116 of epoch 16/20 class : 0.032 - acc class : 99.22 [bs:128]
+90/116 of epoch 16/20 class : 0.010 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 93.48
+Accuracies on test: class : 91.80
+New epoch - lr: 0.0001
+0/116 of epoch 17/20 class : 0.028 - acc class : 99.22 [bs:128]
+30/116 of epoch 17/20 class : 0.037 - acc class : 98.44 [bs:128]
+60/116 of epoch 17/20 class : 0.022 - acc class : 99.22 [bs:128]
+90/116 of epoch 17/20 class : 0.010 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 94.54
+Accuracies on test: class : 92.10
+New epoch - lr: 0.001
+0/116 of epoch 18/20 class : 0.009 - acc class : 100.00 [bs:128]
+30/116 of epoch 18/20 class : 0.014 - acc class : 100.00 [bs:128]
+60/116 of epoch 18/20 class : 0.025 - acc class : 100.00 [bs:128]
+90/116 of epoch 18/20 class : 0.030 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 94.66
+Accuracies on test: class : 92.57
+New epoch - lr: 0.001
+0/116 of epoch 19/20 class : 0.016 - acc class : 100.00 [bs:128]
+30/116 of epoch 19/20 class : 0.020 - acc class : 100.00 [bs:128]
+60/116 of epoch 19/20 class : 0.005 - acc class : 100.00 [bs:128]
+90/116 of epoch 19/20 class : 0.020 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 94.31
+Accuracies on test: class : 92.87
+New epoch - lr: 0.001
+0/116 of epoch 20/20 class : 0.029 - acc class : 99.22 [bs:128]
+30/116 of epoch 20/20 class : 0.020 - acc class : 99.22 [bs:128]
+60/116 of epoch 20/20 class : 0.013 - acc class : 100.00 [bs:128]
+90/116 of epoch 20/20 class : 0.057 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 94.31
+Accuracies on test: class : 92.99
+Best val 0.950178, corresponding test 0.902395 - best test: 0.938323, best epoch: 14
+It took 460.741
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Target domain: photo
+Dataset size: train 7478, val 843, test 1670
+Step size: 16
+New epoch - lr: 0.01
+0/116 of epoch 1/20 class : 3.247 - acc class : 0.00 [bs:128]
+30/116 of epoch 1/20 class : 1.592 - acc class : 50.78 [bs:128]
+60/116 of epoch 1/20 class : 0.670 - acc class : 79.69 [bs:128]
+90/116 of epoch 1/20 class : 0.753 - acc class : 77.34 [bs:128]
+Accuracies on val: class : 87.90
+Accuracies on test: class : 91.74
+New epoch - lr: 0.01
+0/116 of epoch 2/20 class : 0.775 - acc class : 64.06 [bs:128]
+30/116 of epoch 2/20 class : 0.369 - acc class : 88.28 [bs:128]
+60/116 of epoch 2/20 class : 0.420 - acc class : 82.81 [bs:128]
+90/116 of epoch 2/20 class : 0.431 - acc class : 85.94 [bs:128]
+Accuracies on val: class : 89.09
+Accuracies on test: class : 90.60
+New epoch - lr: 0.01
+0/116 of epoch 3/20 class : 0.255 - acc class : 89.06 [bs:128]
+30/116 of epoch 3/20 class : 0.521 - acc class : 81.25 [bs:128]
+60/116 of epoch 3/20 class : 0.238 - acc class : 89.06 [bs:128]
+90/116 of epoch 3/20 class : 0.360 - acc class : 89.84 [bs:128]
+Accuracies on val: class : 90.87
+Accuracies on test: class : 93.23
+New epoch - lr: 0.01
+0/116 of epoch 4/20 class : 0.194 - acc class : 98.44 [bs:128]
+30/116 of epoch 4/20 class : 0.312 - acc class : 88.28 [bs:128]
+60/116 of epoch 4/20 class : 0.279 - acc class : 91.41 [bs:128]
+90/116 of epoch 4/20 class : 0.164 - acc class : 97.66 [bs:128]
+Accuracies on val: class : 91.58
+Accuracies on test: class : 92.10
+New epoch - lr: 0.01
+0/116 of epoch 5/20 class : 0.168 - acc class : 94.53 [bs:128]
+30/116 of epoch 5/20 class : 0.206 - acc class : 89.84 [bs:128]
+60/116 of epoch 5/20 class : 0.144 - acc class : 95.31 [bs:128]
+90/116 of epoch 5/20 class : 0.227 - acc class : 90.62 [bs:128]
+Accuracies on val: class : 92.76
+Accuracies on test: class : 92.51
+New epoch - lr: 0.01
+0/116 of epoch 6/20 class : 0.292 - acc class : 89.06 [bs:128]
+30/116 of epoch 6/20 class : 0.266 - acc class : 90.62 [bs:128]
+60/116 of epoch 6/20 class : 0.116 - acc class : 95.31 [bs:128]
+90/116 of epoch 6/20 class : 0.139 - acc class : 95.31 [bs:128]
+Accuracies on val: class : 91.58
+Accuracies on test: class : 92.22
+New epoch - lr: 0.01
+0/116 of epoch 7/20 class : 0.062 - acc class : 100.00 [bs:128]
+30/116 of epoch 7/20 class : 0.206 - acc class : 92.19 [bs:128]
+60/116 of epoch 7/20 class : 0.153 - acc class : 96.88 [bs:128]
+90/116 of epoch 7/20 class : 0.117 - acc class : 96.88 [bs:128]
+Accuracies on val: class : 92.29
+Accuracies on test: class : 91.32
+New epoch - lr: 0.01
+0/116 of epoch 8/20 class : 0.113 - acc class : 96.09 [bs:128]
+30/116 of epoch 8/20 class : 0.071 - acc class : 99.22 [bs:128]
+60/116 of epoch 8/20 class : 0.225 - acc class : 96.09 [bs:128]
+90/116 of epoch 8/20 class : 0.105 - acc class : 95.31 [bs:128]
+Accuracies on val: class : 93.83
+Accuracies on test: class : 91.92
+New epoch - lr: 0.01
+0/116 of epoch 9/20 class : 0.108 - acc class : 95.31 [bs:128]
+30/116 of epoch 9/20 class : 0.087 - acc class : 96.88 [bs:128]
+60/116 of epoch 9/20 class : 0.062 - acc class : 97.66 [bs:128]
+90/116 of epoch 9/20 class : 0.113 - acc class : 96.09 [bs:128]
+Accuracies on val: class : 93.95
+Accuracies on test: class : 92.81
+New epoch - lr: 0.01
+0/116 of epoch 10/20 class : 0.102 - acc class : 96.09 [bs:128]
+30/116 of epoch 10/20 class : 0.058 - acc class : 96.88 [bs:128]
+60/116 of epoch 10/20 class : 0.063 - acc class : 98.44 [bs:128]
+90/116 of epoch 10/20 class : 0.130 - acc class : 97.66 [bs:128]
+Accuracies on val: class : 92.76
+Accuracies on test: class : 92.51
+New epoch - lr: 0.01
+0/116 of epoch 11/20 class : 0.195 - acc class : 94.53 [bs:128]
+30/116 of epoch 11/20 class : 0.040 - acc class : 99.22 [bs:128]
+60/116 of epoch 11/20 class : 0.020 - acc class : 100.00 [bs:128]
+90/116 of epoch 11/20 class : 0.046 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 92.29
+Accuracies on test: class : 92.40
+New epoch - lr: 0.01
+0/116 of epoch 12/20 class : 0.057 - acc class : 98.44 [bs:128]
+30/116 of epoch 12/20 class : 0.031 - acc class : 99.22 [bs:128]
+60/116 of epoch 12/20 class : 0.034 - acc class : 100.00 [bs:128]
+90/116 of epoch 12/20 class : 0.059 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 91.22
+Accuracies on test: class : 89.46
+New epoch - lr: 0.01
+0/116 of epoch 13/20 class : 0.061 - acc class : 96.88 [bs:128]
+30/116 of epoch 13/20 class : 0.042 - acc class : 98.44 [bs:128]
+60/116 of epoch 13/20 class : 0.046 - acc class : 98.44 [bs:128]
+90/116 of epoch 13/20 class : 0.039 - acc class : 98.44 [bs:128]
+Accuracies on val: class : 92.41
+Accuracies on test: class : 91.74
+New epoch - lr: 0.01
+0/116 of epoch 14/20 class : 0.024 - acc class : 100.00 [bs:128]
+30/116 of epoch 14/20 class : 0.040 - acc class : 98.44 [bs:128]
+60/116 of epoch 14/20 class : 0.025 - acc class : 100.00 [bs:128]
+90/116 of epoch 14/20 class : 0.052 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 92.88
+Accuracies on test: class : 93.29
+New epoch - lr: 0.01
+0/116 of epoch 15/20 class : 0.019 - acc class : 100.00 [bs:128]
+30/116 of epoch 15/20 class : 0.016 - acc class : 100.00 [bs:128]
+60/116 of epoch 15/20 class : 0.038 - acc class : 99.22 [bs:128]
+90/116 of epoch 15/20 class : 0.019 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 91.58
+Accuracies on test: class : 92.69
+New epoch - lr: 0.01
+0/116 of epoch 16/20 class : 0.060 - acc class : 97.66 [bs:128]
+30/116 of epoch 16/20 class : 0.011 - acc class : 100.00 [bs:128]
+60/116 of epoch 16/20 class : 0.029 - acc class : 99.22 [bs:128]
+90/116 of epoch 16/20 class : 0.011 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 93.71
+Accuracies on test: class : 92.93
+New epoch - lr: 0.0001
+0/116 of epoch 17/20 class : 0.015 - acc class : 100.00 [bs:128]
+30/116 of epoch 17/20 class : 0.057 - acc class : 98.44 [bs:128]
+60/116 of epoch 17/20 class : 0.011 - acc class : 100.00 [bs:128]
+90/116 of epoch 17/20 class : 0.010 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 95.02
+Accuracies on test: class : 92.87
+New epoch - lr: 0.001
+0/116 of epoch 18/20 class : 0.021 - acc class : 100.00 [bs:128]
+30/116 of epoch 18/20 class : 0.014 - acc class : 100.00 [bs:128]
+60/116 of epoch 18/20 class : 0.012 - acc class : 100.00 [bs:128]
+90/116 of epoch 18/20 class : 0.070 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 95.37
+Accuracies on test: class : 93.47
+New epoch - lr: 0.001
+0/116 of epoch 19/20 class : 0.021 - acc class : 100.00 [bs:128]
+30/116 of epoch 19/20 class : 0.009 - acc class : 100.00 [bs:128]
+60/116 of epoch 19/20 class : 0.006 - acc class : 100.00 [bs:128]
+90/116 of epoch 19/20 class : 0.061 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 95.26
+Accuracies on test: class : 93.53
+New epoch - lr: 0.001
+0/116 of epoch 20/20 class : 0.020 - acc class : 100.00 [bs:128]
+30/116 of epoch 20/20 class : 0.020 - acc class : 100.00 [bs:128]
+60/116 of epoch 20/20 class : 0.020 - acc class : 99.22 [bs:128]
+90/116 of epoch 20/20 class : 0.036 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 95.37
+Accuracies on test: class : 93.71
+Best val 0.953737, corresponding test 0.937126 - best test: 0.937126, best epoch: 19
+It took 459.265
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Target domain: photo
+Dataset size: train 7478, val 843, test 1670
+Step size: 16
+New epoch - lr: 0.01
+0/116 of epoch 1/20 class : 2.118 - acc class : 10.16 [bs:128]
+30/116 of epoch 1/20 class : 0.899 - acc class : 70.31 [bs:128]
+60/116 of epoch 1/20 class : 0.916 - acc class : 60.94 [bs:128]
+90/116 of epoch 1/20 class : 0.902 - acc class : 55.47 [bs:128]
+Accuracies on val: class : 89.09
+Accuracies on test: class : 91.14
+New epoch - lr: 0.01
+0/116 of epoch 2/20 class : 0.591 - acc class : 80.47 [bs:128]
+30/116 of epoch 2/20 class : 0.425 - acc class : 90.62 [bs:128]
+60/116 of epoch 2/20 class : 0.336 - acc class : 91.41 [bs:128]
+90/116 of epoch 2/20 class : 0.477 - acc class : 82.03 [bs:128]
+Accuracies on val: class : 90.39
+Accuracies on test: class : 90.66
+New epoch - lr: 0.01
+0/116 of epoch 3/20 class : 0.240 - acc class : 94.53 [bs:128]
+30/116 of epoch 3/20 class : 0.454 - acc class : 81.25 [bs:128]
+60/116 of epoch 3/20 class : 0.240 - acc class : 91.41 [bs:128]
+90/116 of epoch 3/20 class : 0.294 - acc class : 91.41 [bs:128]
+Accuracies on val: class : 90.75
+Accuracies on test: class : 89.58
+New epoch - lr: 0.01
+0/116 of epoch 4/20 class : 0.219 - acc class : 89.84 [bs:128]
+30/116 of epoch 4/20 class : 0.241 - acc class : 91.41 [bs:128]
+60/116 of epoch 4/20 class : 0.229 - acc class : 92.97 [bs:128]
+90/116 of epoch 4/20 class : 0.268 - acc class : 90.62 [bs:128]
+Accuracies on val: class : 92.76
+Accuracies on test: class : 91.98
+New epoch - lr: 0.01
+0/116 of epoch 5/20 class : 0.151 - acc class : 96.09 [bs:128]
+30/116 of epoch 5/20 class : 0.152 - acc class : 95.31 [bs:128]
+60/116 of epoch 5/20 class : 0.184 - acc class : 94.53 [bs:128]
+90/116 of epoch 5/20 class : 0.169 - acc class : 95.31 [bs:128]
+Accuracies on val: class : 88.97
+Accuracies on test: class : 91.44
+New epoch - lr: 0.01
+0/116 of epoch 6/20 class : 0.273 - acc class : 92.97 [bs:128]
+30/116 of epoch 6/20 class : 0.243 - acc class : 89.84 [bs:128]
+60/116 of epoch 6/20 class : 0.196 - acc class : 93.75 [bs:128]
+90/116 of epoch 6/20 class : 0.197 - acc class : 92.19 [bs:128]
+Accuracies on val: class : 92.41
+Accuracies on test: class : 94.37
+New epoch - lr: 0.01
+0/116 of epoch 7/20 class : 0.100 - acc class : 96.88 [bs:128]
+30/116 of epoch 7/20 class : 0.136 - acc class : 97.66 [bs:128]
+60/116 of epoch 7/20 class : 0.153 - acc class : 95.31 [bs:128]
+90/116 of epoch 7/20 class : 0.114 - acc class : 96.09 [bs:128]
+Accuracies on val: class : 93.95
+Accuracies on test: class : 93.35
+New epoch - lr: 0.01
+0/116 of epoch 8/20 class : 0.086 - acc class : 96.88 [bs:128]
+30/116 of epoch 8/20 class : 0.071 - acc class : 99.22 [bs:128]
+60/116 of epoch 8/20 class : 0.151 - acc class : 93.75 [bs:128]
+90/116 of epoch 8/20 class : 0.041 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 94.42
+Accuracies on test: class : 92.63
+New epoch - lr: 0.01
+0/116 of epoch 9/20 class : 0.060 - acc class : 97.66 [bs:128]
+30/116 of epoch 9/20 class : 0.038 - acc class : 100.00 [bs:128]
+60/116 of epoch 9/20 class : 0.059 - acc class : 99.22 [bs:128]
+90/116 of epoch 9/20 class : 0.140 - acc class : 95.31 [bs:128]
+Accuracies on val: class : 93.48
+Accuracies on test: class : 92.04
+New epoch - lr: 0.01
+0/116 of epoch 10/20 class : 0.148 - acc class : 95.31 [bs:128]
+30/116 of epoch 10/20 class : 0.058 - acc class : 97.66 [bs:128]
+60/116 of epoch 10/20 class : 0.033 - acc class : 100.00 [bs:128]
+90/116 of epoch 10/20 class : 0.083 - acc class : 97.66 [bs:128]
+Accuracies on val: class : 93.59
+Accuracies on test: class : 92.63
+New epoch - lr: 0.01
+0/116 of epoch 11/20 class : 0.069 - acc class : 99.22 [bs:128]
+30/116 of epoch 11/20 class : 0.029 - acc class : 100.00 [bs:128]
+60/116 of epoch 11/20 class : 0.129 - acc class : 96.88 [bs:128]
+90/116 of epoch 11/20 class : 0.045 - acc class : 98.44 [bs:128]
+Accuracies on val: class : 92.88
+Accuracies on test: class : 91.32
+New epoch - lr: 0.01
+0/116 of epoch 12/20 class : 0.113 - acc class : 96.09 [bs:128]
+30/116 of epoch 12/20 class : 0.031 - acc class : 100.00 [bs:128]
+60/116 of epoch 12/20 class : 0.038 - acc class : 98.44 [bs:128]
+90/116 of epoch 12/20 class : 0.093 - acc class : 98.44 [bs:128]
+Accuracies on val: class : 93.48
+Accuracies on test: class : 92.93
+New epoch - lr: 0.01
+0/116 of epoch 13/20 class : 0.064 - acc class : 97.66 [bs:128]
+30/116 of epoch 13/20 class : 0.045 - acc class : 98.44 [bs:128]
+60/116 of epoch 13/20 class : 0.025 - acc class : 100.00 [bs:128]
+90/116 of epoch 13/20 class : 0.035 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 93.83
+Accuracies on test: class : 92.10
+New epoch - lr: 0.01
+0/116 of epoch 14/20 class : 0.094 - acc class : 98.44 [bs:128]
+30/116 of epoch 14/20 class : 0.054 - acc class : 99.22 [bs:128]
+60/116 of epoch 14/20 class : 0.080 - acc class : 98.44 [bs:128]
+90/116 of epoch 14/20 class : 0.072 - acc class : 96.88 [bs:128]
+Accuracies on val: class : 93.12
+Accuracies on test: class : 92.63
+New epoch - lr: 0.01
+0/116 of epoch 15/20 class : 0.034 - acc class : 99.22 [bs:128]
+30/116 of epoch 15/20 class : 0.025 - acc class : 100.00 [bs:128]
+60/116 of epoch 15/20 class : 0.061 - acc class : 98.44 [bs:128]
+90/116 of epoch 15/20 class : 0.015 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 94.90
+Accuracies on test: class : 92.69
+New epoch - lr: 0.01
+0/116 of epoch 16/20 class : 0.088 - acc class : 96.88 [bs:128]
+30/116 of epoch 16/20 class : 0.027 - acc class : 99.22 [bs:128]
+60/116 of epoch 16/20 class : 0.011 - acc class : 100.00 [bs:128]
+90/116 of epoch 16/20 class : 0.025 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 93.71
+Accuracies on test: class : 91.98
+New epoch - lr: 0.0001
+0/116 of epoch 17/20 class : 0.011 - acc class : 100.00 [bs:128]
+30/116 of epoch 17/20 class : 0.025 - acc class : 100.00 [bs:128]
+60/116 of epoch 17/20 class : 0.008 - acc class : 100.00 [bs:128]
+90/116 of epoch 17/20 class : 0.008 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 95.26
+Accuracies on test: class : 93.95
+New epoch - lr: 0.001
+0/116 of epoch 18/20 class : 0.007 - acc class : 100.00 [bs:128]
+30/116 of epoch 18/20 class : 0.015 - acc class : 100.00 [bs:128]
+60/116 of epoch 18/20 class : 0.006 - acc class : 100.00 [bs:128]
+90/116 of epoch 18/20 class : 0.013 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 95.37
+Accuracies on test: class : 94.31
+New epoch - lr: 0.001
+0/116 of epoch 19/20 class : 0.013 - acc class : 100.00 [bs:128]
+30/116 of epoch 19/20 class : 0.006 - acc class : 100.00 [bs:128]
+60/116 of epoch 19/20 class : 0.005 - acc class : 100.00 [bs:128]
+90/116 of epoch 19/20 class : 0.014 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 95.49
+Accuracies on test: class : 94.25
+New epoch - lr: 0.001
+0/116 of epoch 20/20 class : 0.006 - acc class : 100.00 [bs:128]
+30/116 of epoch 20/20 class : 0.005 - acc class : 100.00 [bs:128]
+60/116 of epoch 20/20 class : 0.012 - acc class : 100.00 [bs:128]
+90/116 of epoch 20/20 class : 0.004 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 95.49
+Accuracies on test: class : 94.55
+Best val 0.954923, corresponding test 0.945509 - best test: 0.945509, best epoch: 19
+It took 461.067
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Target domain: photo
+Dataset size: train 7478, val 843, test 1670
+Step size: 16
+New epoch - lr: 0.01
+0/116 of epoch 1/20 class : 3.247 - acc class : 0.00 [bs:128]
+30/116 of epoch 1/20 class : 1.417 - acc class : 49.22 [bs:128]
+60/116 of epoch 1/20 class : 0.880 - acc class : 61.72 [bs:128]
+90/116 of epoch 1/20 class : 0.959 - acc class : 56.25 [bs:128]
+Accuracies on val: class : 87.07
+Accuracies on test: class : 90.96
+New epoch - lr: 0.01
+0/116 of epoch 2/20 class : 0.774 - acc class : 60.16 [bs:128]
+30/116 of epoch 2/20 class : 0.372 - acc class : 92.19 [bs:128]
+60/116 of epoch 2/20 class : 0.491 - acc class : 78.91 [bs:128]
+90/116 of epoch 2/20 class : 0.554 - acc class : 82.81 [bs:128]
+Accuracies on val: class : 92.05
+Accuracies on test: class : 90.96
+New epoch - lr: 0.01
+0/116 of epoch 3/20 class : 0.300 - acc class : 91.41 [bs:128]
+30/116 of epoch 3/20 class : 0.461 - acc class : 86.72 [bs:128]
+60/116 of epoch 3/20 class : 0.251 - acc class : 91.41 [bs:128]
+90/116 of epoch 3/20 class : 0.327 - acc class : 91.41 [bs:128]
+Accuracies on val: class : 91.46
+Accuracies on test: class : 86.35
+New epoch - lr: 0.01
+0/116 of epoch 4/20 class : 0.206 - acc class : 97.66 [bs:128]
+30/116 of epoch 4/20 class : 0.260 - acc class : 90.62 [bs:128]
+60/116 of epoch 4/20 class : 0.276 - acc class : 91.41 [bs:128]
+90/116 of epoch 4/20 class : 0.159 - acc class : 98.44 [bs:128]
+Accuracies on val: class : 92.53
+Accuracies on test: class : 92.22
+New epoch - lr: 0.01
+0/116 of epoch 5/20 class : 0.209 - acc class : 92.97 [bs:128]
+30/116 of epoch 5/20 class : 0.126 - acc class : 100.00 [bs:128]
+60/116 of epoch 5/20 class : 0.147 - acc class : 98.44 [bs:128]
+90/116 of epoch 5/20 class : 0.210 - acc class : 94.53 [bs:128]
+Accuracies on val: class : 91.58
+Accuracies on test: class : 91.74
+New epoch - lr: 0.01
+0/116 of epoch 6/20 class : 0.219 - acc class : 92.19 [bs:128]
+30/116 of epoch 6/20 class : 0.261 - acc class : 92.19 [bs:128]
+60/116 of epoch 6/20 class : 0.096 - acc class : 99.22 [bs:128]
+90/116 of epoch 6/20 class : 0.160 - acc class : 94.53 [bs:128]
+Accuracies on val: class : 89.68
+Accuracies on test: class : 91.68
+New epoch - lr: 0.01
+0/116 of epoch 7/20 class : 0.060 - acc class : 98.44 [bs:128]
+30/116 of epoch 7/20 class : 0.234 - acc class : 92.19 [bs:128]
+60/116 of epoch 7/20 class : 0.200 - acc class : 95.31 [bs:128]
+90/116 of epoch 7/20 class : 0.172 - acc class : 94.53 [bs:128]
+Accuracies on val: class : 93.24
+Accuracies on test: class : 92.46
+New epoch - lr: 0.01
+0/116 of epoch 8/20 class : 0.079 - acc class : 99.22 [bs:128]
+30/116 of epoch 8/20 class : 0.113 - acc class : 97.66 [bs:128]
+60/116 of epoch 8/20 class : 0.223 - acc class : 90.62 [bs:128]
+90/116 of epoch 8/20 class : 0.056 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 94.19
+Accuracies on test: class : 92.51
+New epoch - lr: 0.01
+0/116 of epoch 9/20 class : 0.116 - acc class : 96.09 [bs:128]
+30/116 of epoch 9/20 class : 0.070 - acc class : 98.44 [bs:128]
+60/116 of epoch 9/20 class : 0.083 - acc class : 97.66 [bs:128]
+90/116 of epoch 9/20 class : 0.125 - acc class : 95.31 [bs:128]
+Accuracies on val: class : 93.36
+Accuracies on test: class : 92.63
+New epoch - lr: 0.01
+0/116 of epoch 10/20 class : 0.086 - acc class : 97.66 [bs:128]
+30/116 of epoch 10/20 class : 0.066 - acc class : 98.44 [bs:128]
+60/116 of epoch 10/20 class : 0.059 - acc class : 98.44 [bs:128]
+90/116 of epoch 10/20 class : 0.125 - acc class : 96.09 [bs:128]
+Accuracies on val: class : 94.07
+Accuracies on test: class : 93.17
+New epoch - lr: 0.01
+0/116 of epoch 11/20 class : 0.141 - acc class : 93.75 [bs:128]
+30/116 of epoch 11/20 class : 0.032 - acc class : 99.22 [bs:128]
+60/116 of epoch 11/20 class : 0.112 - acc class : 96.09 [bs:128]
+90/116 of epoch 11/20 class : 0.056 - acc class : 98.44 [bs:128]
+Accuracies on val: class : 93.71
+Accuracies on test: class : 93.11
+New epoch - lr: 0.01
+0/116 of epoch 12/20 class : 0.082 - acc class : 98.44 [bs:128]
+30/116 of epoch 12/20 class : 0.076 - acc class : 97.66 [bs:128]
+60/116 of epoch 12/20 class : 0.017 - acc class : 100.00 [bs:128]
+90/116 of epoch 12/20 class : 0.024 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 94.54
+Accuracies on test: class : 92.75
+New epoch - lr: 0.01
+0/116 of epoch 13/20 class : 0.066 - acc class : 98.44 [bs:128]
+30/116 of epoch 13/20 class : 0.067 - acc class : 97.66 [bs:128]
+60/116 of epoch 13/20 class : 0.014 - acc class : 100.00 [bs:128]
+90/116 of epoch 13/20 class : 0.057 - acc class : 98.44 [bs:128]
+Accuracies on val: class : 94.66
+Accuracies on test: class : 93.05
+New epoch - lr: 0.01
+0/116 of epoch 14/20 class : 0.041 - acc class : 98.44 [bs:128]
+30/116 of epoch 14/20 class : 0.040 - acc class : 98.44 [bs:128]
+60/116 of epoch 14/20 class : 0.055 - acc class : 96.09 [bs:128]
+90/116 of epoch 14/20 class : 0.072 - acc class : 96.88 [bs:128]
+Accuracies on val: class : 93.12
+Accuracies on test: class : 92.75
+New epoch - lr: 0.01
+0/116 of epoch 15/20 class : 0.017 - acc class : 100.00 [bs:128]
+30/116 of epoch 15/20 class : 0.032 - acc class : 98.44 [bs:128]
+60/116 of epoch 15/20 class : 0.086 - acc class : 96.88 [bs:128]
+90/116 of epoch 15/20 class : 0.049 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 94.19
+Accuracies on test: class : 90.24
+New epoch - lr: 0.01
+0/116 of epoch 16/20 class : 0.049 - acc class : 99.22 [bs:128]
+30/116 of epoch 16/20 class : 0.027 - acc class : 100.00 [bs:128]
+60/116 of epoch 16/20 class : 0.015 - acc class : 100.00 [bs:128]
+90/116 of epoch 16/20 class : 0.016 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 91.10
+Accuracies on test: class : 91.44
+New epoch - lr: 0.0001
+0/116 of epoch 17/20 class : 0.024 - acc class : 100.00 [bs:128]
+30/116 of epoch 17/20 class : 0.015 - acc class : 100.00 [bs:128]
+60/116 of epoch 17/20 class : 0.016 - acc class : 100.00 [bs:128]
+90/116 of epoch 17/20 class : 0.007 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 94.66
+Accuracies on test: class : 93.11
+New epoch - lr: 0.001
+0/116 of epoch 18/20 class : 0.009 - acc class : 100.00 [bs:128]
+30/116 of epoch 18/20 class : 0.013 - acc class : 100.00 [bs:128]
+60/116 of epoch 18/20 class : 0.006 - acc class : 100.00 [bs:128]
+90/116 of epoch 18/20 class : 0.021 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 95.02
+Accuracies on test: class : 92.99
+New epoch - lr: 0.001
+0/116 of epoch 19/20 class : 0.026 - acc class : 99.22 [bs:128]
+30/116 of epoch 19/20 class : 0.018 - acc class : 99.22 [bs:128]
+60/116 of epoch 19/20 class : 0.013 - acc class : 100.00 [bs:128]
+90/116 of epoch 19/20 class : 0.026 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 94.90
+Accuracies on test: class : 93.35
+New epoch - lr: 0.001
+0/116 of epoch 20/20 class : 0.004 - acc class : 100.00 [bs:128]
+30/116 of epoch 20/20 class : 0.006 - acc class : 100.00 [bs:128]
+60/116 of epoch 20/20 class : 0.011 - acc class : 100.00 [bs:128]
+90/116 of epoch 20/20 class : 0.025 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 95.14
+Accuracies on test: class : 93.47
+Best val 0.951364, corresponding test 0.934731 - best test: 0.934731, best epoch: 19
+It took 457.645
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/share/data/vision-greg2/users/xdu/anaconda3/envs/RSC/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Target domain: photo
+Dataset size: train 7478, val 843, test 1670
+Step size: 16
+New epoch - lr: 0.01
+0/116 of epoch 1/20 class : 3.247 - acc class : 0.00 [bs:128]
+30/116 of epoch 1/20 class : 1.410 - acc class : 50.78 [bs:128]
+60/116 of epoch 1/20 class : 0.669 - acc class : 78.91 [bs:128]
+90/116 of epoch 1/20 class : 0.859 - acc class : 75.78 [bs:128]
+Accuracies on val: class : 87.54
+Accuracies on test: class : 91.62
+New epoch - lr: 0.01
+0/116 of epoch 2/20 class : 0.571 - acc class : 81.25 [bs:128]
+30/116 of epoch 2/20 class : 0.373 - acc class : 92.97 [bs:128]
+60/116 of epoch 2/20 class : 0.378 - acc class : 89.06 [bs:128]
+90/116 of epoch 2/20 class : 0.439 - acc class : 87.50 [bs:128]
+Accuracies on val: class : 89.21
+Accuracies on test: class : 89.58
+New epoch - lr: 0.01
+0/116 of epoch 3/20 class : 0.309 - acc class : 89.84 [bs:128]
+30/116 of epoch 3/20 class : 0.433 - acc class : 83.59 [bs:128]
+60/116 of epoch 3/20 class : 0.298 - acc class : 86.72 [bs:128]
+90/116 of epoch 3/20 class : 0.313 - acc class : 91.41 [bs:128]
+Accuracies on val: class : 91.22
+Accuracies on test: class : 90.12
+New epoch - lr: 0.01
+0/116 of epoch 4/20 class : 0.267 - acc class : 87.50 [bs:128]
+30/116 of epoch 4/20 class : 0.343 - acc class : 86.72 [bs:128]
+60/116 of epoch 4/20 class : 0.222 - acc class : 91.41 [bs:128]
+90/116 of epoch 4/20 class : 0.257 - acc class : 90.62 [bs:128]
+Accuracies on val: class : 92.65
+Accuracies on test: class : 92.93
+New epoch - lr: 0.01
+0/116 of epoch 5/20 class : 0.182 - acc class : 93.75 [bs:128]
+30/116 of epoch 5/20 class : 0.159 - acc class : 95.31 [bs:128]
+60/116 of epoch 5/20 class : 0.214 - acc class : 92.19 [bs:128]
+90/116 of epoch 5/20 class : 0.212 - acc class : 92.97 [bs:128]
+Accuracies on val: class : 92.41
+Accuracies on test: class : 91.62
+New epoch - lr: 0.01
+0/116 of epoch 6/20 class : 0.235 - acc class : 91.41 [bs:128]
+30/116 of epoch 6/20 class : 0.205 - acc class : 92.19 [bs:128]
+60/116 of epoch 6/20 class : 0.071 - acc class : 99.22 [bs:128]
+90/116 of epoch 6/20 class : 0.130 - acc class : 96.88 [bs:128]
+Accuracies on val: class : 91.93
+Accuracies on test: class : 93.23
+New epoch - lr: 0.01
+0/116 of epoch 7/20 class : 0.048 - acc class : 100.00 [bs:128]
+30/116 of epoch 7/20 class : 0.191 - acc class : 95.31 [bs:128]
+60/116 of epoch 7/20 class : 0.150 - acc class : 94.53 [bs:128]
+90/116 of epoch 7/20 class : 0.123 - acc class : 96.09 [bs:128]
+Accuracies on val: class : 93.24
+Accuracies on test: class : 93.47
+New epoch - lr: 0.01
+0/116 of epoch 8/20 class : 0.105 - acc class : 97.66 [bs:128]
+30/116 of epoch 8/20 class : 0.089 - acc class : 97.66 [bs:128]
+60/116 of epoch 8/20 class : 0.160 - acc class : 97.66 [bs:128]
+90/116 of epoch 8/20 class : 0.053 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 93.95
+Accuracies on test: class : 93.17
+New epoch - lr: 0.01
+0/116 of epoch 9/20 class : 0.109 - acc class : 96.09 [bs:128]
+30/116 of epoch 9/20 class : 0.101 - acc class : 96.09 [bs:128]
+60/116 of epoch 9/20 class : 0.084 - acc class : 96.88 [bs:128]
+90/116 of epoch 9/20 class : 0.166 - acc class : 93.75 [bs:128]
+Accuracies on val: class : 93.00
+Accuracies on test: class : 91.86
+New epoch - lr: 0.01
+0/116 of epoch 10/20 class : 0.181 - acc class : 93.75 [bs:128]
+30/116 of epoch 10/20 class : 0.048 - acc class : 100.00 [bs:128]
+60/116 of epoch 10/20 class : 0.026 - acc class : 100.00 [bs:128]
+90/116 of epoch 10/20 class : 0.203 - acc class : 94.53 [bs:128]
+Accuracies on val: class : 94.31
+Accuracies on test: class : 92.40
+New epoch - lr: 0.01
+0/116 of epoch 11/20 class : 0.081 - acc class : 98.44 [bs:128]
+30/116 of epoch 11/20 class : 0.031 - acc class : 100.00 [bs:128]
+60/116 of epoch 11/20 class : 0.031 - acc class : 100.00 [bs:128]
+90/116 of epoch 11/20 class : 0.063 - acc class : 97.66 [bs:128]
+Accuracies on val: class : 94.66
+Accuracies on test: class : 93.53
+New epoch - lr: 0.01
+0/116 of epoch 12/20 class : 0.062 - acc class : 96.09 [bs:128]
+30/116 of epoch 12/20 class : 0.047 - acc class : 98.44 [bs:128]
+60/116 of epoch 12/20 class : 0.033 - acc class : 99.22 [bs:128]
+90/116 of epoch 12/20 class : 0.023 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 92.17
+Accuracies on test: class : 90.90
+New epoch - lr: 0.01
+0/116 of epoch 13/20 class : 0.114 - acc class : 96.09 [bs:128]
+30/116 of epoch 13/20 class : 0.073 - acc class : 98.44 [bs:128]
+60/116 of epoch 13/20 class : 0.040 - acc class : 99.22 [bs:128]
+90/116 of epoch 13/20 class : 0.069 - acc class : 97.66 [bs:128]
+Accuracies on val: class : 91.70
+Accuracies on test: class : 85.33
+New epoch - lr: 0.01
+0/116 of epoch 14/20 class : 0.037 - acc class : 100.00 [bs:128]
+30/116 of epoch 14/20 class : 0.080 - acc class : 96.09 [bs:128]
+60/116 of epoch 14/20 class : 0.023 - acc class : 100.00 [bs:128]
+90/116 of epoch 14/20 class : 0.042 - acc class : 98.44 [bs:128]
+Accuracies on val: class : 93.36
+Accuracies on test: class : 92.16
+New epoch - lr: 0.01
+0/116 of epoch 15/20 class : 0.031 - acc class : 98.44 [bs:128]
+30/116 of epoch 15/20 class : 0.011 - acc class : 100.00 [bs:128]
+60/116 of epoch 15/20 class : 0.036 - acc class : 99.22 [bs:128]
+90/116 of epoch 15/20 class : 0.021 - acc class : 99.22 [bs:128]
+Accuracies on val: class : 94.31
+Accuracies on test: class : 92.40
+New epoch - lr: 0.01
+0/116 of epoch 16/20 class : 0.040 - acc class : 99.22 [bs:128]
+30/116 of epoch 16/20 class : 0.018 - acc class : 100.00 [bs:128]
+60/116 of epoch 16/20 class : 0.009 - acc class : 100.00 [bs:128]
+90/116 of epoch 16/20 class : 0.013 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 92.53
+Accuracies on test: class : 91.50
+New epoch - lr: 0.0001
+0/116 of epoch 17/20 class : 0.009 - acc class : 100.00 [bs:128]
+30/116 of epoch 17/20 class : 0.015 - acc class : 100.00 [bs:128]
+60/116 of epoch 17/20 class : 0.017 - acc class : 100.00 [bs:128]
+90/116 of epoch 17/20 class : 0.097 - acc class : 97.66 [bs:128]
+Accuracies on val: class : 94.31
+Accuracies on test: class : 93.17
+New epoch - lr: 0.001
+0/116 of epoch 18/20 class : 0.017 - acc class : 100.00 [bs:128]
+30/116 of epoch 18/20 class : 0.062 - acc class : 100.00 [bs:128]
+60/116 of epoch 18/20 class : 0.008 - acc class : 100.00 [bs:128]
+90/116 of epoch 18/20 class : 0.015 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 94.66
+Accuracies on test: class : 93.35
+New epoch - lr: 0.001
+0/116 of epoch 19/20 class : 0.030 - acc class : 99.22 [bs:128]
+30/116 of epoch 19/20 class : 0.023 - acc class : 100.00 [bs:128]
+60/116 of epoch 19/20 class : 0.033 - acc class : 99.22 [bs:128]
+90/116 of epoch 19/20 class : 0.049 - acc class : 98.44 [bs:128]
+Accuracies on val: class : 94.90
+Accuracies on test: class : 93.29
+New epoch - lr: 0.001
+0/116 of epoch 20/20 class : 0.010 - acc class : 100.00 [bs:128]
+30/116 of epoch 20/20 class : 0.004 - acc class : 100.00 [bs:128]
+60/116 of epoch 20/20 class : 0.011 - acc class : 100.00 [bs:128]
+90/116 of epoch 20/20 class : 0.003 - acc class : 100.00 [bs:128]
+Accuracies on val: class : 95.14
+Accuracies on test: class : 93.65
+Best val 0.951364, corresponding test 0.936527 - best test: 0.936527, best epoch: 19
+It took 464.908

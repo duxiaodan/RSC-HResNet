@@ -1,0 +1,4 @@
+art painting: mean: 0.7912108, sample std: 0.029832417270479
+cartoon: mean: 0.7816552 sample std: 0.011524207334997
+sketch: mean: 0.7999998 sample std: 0.019409615083767
+photo: mean: 0.9312576, sample std: 0.016661492154066
