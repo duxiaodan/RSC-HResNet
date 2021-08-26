@@ -44,7 +44,7 @@ Experiments with different source/target domains are listed in train.py(L145-152
 
 To train a ResNet18, simply run:
 ```bash
-  python train.py --net resnet18
+  python train.py --net resnet18  --target sketch # sketch as target
 ```
 
 To test a ResNet18, you can download RSC model below and [logs](https://cmu.box.com/s/yvymx574mr9u76lhqfa01rynimy9tv1p):
