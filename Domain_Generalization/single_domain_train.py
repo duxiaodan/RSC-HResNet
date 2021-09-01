@@ -16,11 +16,9 @@ from models.resnet import resnet18, resnet50
 from models.lib_model import lib_resnet18
 from models.hyper_imagenet_resnet_18 import hyper_resnet18
 from pdb import set_trace
-
+torch.backends.cudnn.enabled=False
 import wandb
-import torchvision
 
-torch.backends.cudnn.benchmark = False
 def get_args():
     parser = argparse.ArgumentParser(description="Script to launch jigsaw training",
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -55,8 +53,8 @@ def get_args():
     parser.add_argument('--experiment_name', type =str, default = 'dummy')
 
     parser.add_argument('--wandb', action = 'store_true')
+    parser.add_argument('--RSC', action = 'store_true')
     parser.add_argument('--project_name', type = str, help = 'project name for wand' )
-    parser.add_argument('--RSCwt', action = 'store_true')   
 
 
     return parser.parse_args()
@@ -65,12 +63,8 @@ class Trainer:
     def __init__(self, args, device):
         self.args = args
         self.device = device
-        if args.network == 'resnet18':
-
-            model = resnet18(pretrained=True, classes=args.n_classes)
-
-        elif args.network == 'lib_resnet18':
-            model = lib_resnet18(pretrained = True, source = args.source, RSC =  args.RSCwt, classes = args.n_classes)
+        if args.network == 'hyper_resnet18':
+            model = hyper_resnet18(pretrained = True, classes = args.n_classes)
 
         self.model = model.to(device)
         # print(self.model)
@@ -90,18 +84,22 @@ class Trainer:
         else:
             self.target_id = None
 
-    def _do_epoch(self, epoch=None):
+        self.target = args.target
+        self.best_test = -1
+
+
+    def _do_epoch(self, RSC = True, epoch=None):
         criterion = nn.CrossEntropyLoss()
         self.model.train()
         for it, ((data, jig_l, class_l), d_idx) in enumerate(self.source_loader):
             data, jig_l, class_l, d_idx = data.to(self.device), jig_l.to(self.device), class_l.to(self.device), d_idx.to(self.device)
-            #data, jig_l, class_l, d_idx = data.cuda(), jig_l.cuda(), class_l.cuda(), d_idx.cuda()
             self.optimizer.zero_grad()
             data_flip = torch.flip(data, (3,)).detach().clone()
             data = torch.cat((data, data_flip))
             class_l = torch.cat((class_l, class_l))
             d_idx = torch.cat((d_idx,d_idx))
-            class_logit = self.model(data, class_l, True, epoch,data_idx = d_idx)
+            set_trace()
+            class_logit = self.model(data, class_l, RSC, epoch)
             class_loss = criterion(class_logit, class_l)
             _, cls_pred = class_logit.max(dim=1)
             loss = class_loss
@@ -124,7 +122,10 @@ class Trainer:
                 class_acc = float(class_correct) / total
                 self.logger.log_test(phase, {"class": class_acc})
                 self.results[phase][self.current_epoch] = class_acc
-                
+
+        if self.best_test < class_acc:
+            self.best_test = class_acc
+            torch.save(self.model.state_dict(),"pre_trained_models/"+self.target+"/RSC=="+str(RSC)+"/best_model.pth.tar")  
 
     def do_test(self, loader):
         class_correct = 0
@@ -145,7 +146,7 @@ class Trainer:
         for self.current_epoch in range(self.args.epochs):
             
             self.logger.new_epoch(self.scheduler.get_lr())
-            self._do_epoch(self.current_epoch)
+            self._do_epoch(self.args.RSC,self.current_epoch)
             self.scheduler.step()
             if wandb is not None:        
                 wandb.log({'test':self.results['test'][self.current_epoch]})
@@ -171,9 +172,8 @@ def main():
         wandb.init(project=args.project_name, name = args.experiment_name, resume = False,dir ="./" )
     else:
         wandb=None
-    #args.source = ['photo','art_painting', 'cartoon', 'sketch', ]  
-    args.source = ['photo','art_painting', 'sketch', 'cartoon' ]
-    args.source.remove(args.target)
+    args.source = ['art_painting', 'cartoon', 'sketch', 'photo']  
+    args.source = [args.target]
     print('source domains:{}'.format(args.source))
     
     #args.source = ['art_painting', 'cartoon', 'photo']
